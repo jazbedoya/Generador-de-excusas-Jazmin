@@ -1,13 +1,7 @@
-import "bootstrap";
-import "./style.css";
-
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  document.getElementById('excuse').innerHTML = generateExcuse;
+  document.getElementById('excuse').innerHTML = generateExcuse();
 };
 
 //Excusas en diferentes listas (arrays)
@@ -35,7 +29,7 @@ function generateExcuse() {
     action[randomIndex(action)]+ '  '+
     what[randomIndex(what)]+'  '+
     when[randomIndex(when)];
-  return excuse
+  return excuse;
 
 
 }

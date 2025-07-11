@@ -1,5 +1,5 @@
 <!-- hide -->
-# Hello World with Vanilla JS
+# Hello hola with Vanilla JS
 
 > 🇪🇸 [Spanish version of this readme is available](./README.es.md).
 <!-- endhide -->
